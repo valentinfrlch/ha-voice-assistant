@@ -1,8 +1,8 @@
 {
     "type": "micro",
-    "wake_word": "Orbit",
+    "wake_word": "orbit",
     "author": "Valentin Fröhlich",
-    "website": "https://www.github.com/valentinfrlch",
+    "website": "https://www.github.com/valentinfrlch/ha-voice-assistant",
     "model": "orbit.tflite",
     "trained_languages": [
         "en"
@@ -12,7 +12,7 @@
         "probability_cutoff": 0.97,
         "feature_step_size": 10,
         "sliding_window_size": 5,
-        "tensor_arena_size": 26080,
+        "tensor_arena_size": 22860,
         "minimum_esphome_version": "2024.7.0"
     }
 }
